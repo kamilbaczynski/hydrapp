@@ -321,7 +321,7 @@ body {
   background: #3767AD; }
 
 .hydrapp {
-  width: 640px;
+  width: 100vw;
   margin: 150px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,16 +345,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-
-.glass__counter {
-  position: absolute;
-  bottom: 68px;
-  height: 98px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 112px;
-  line-height: 131px; }
+  .glass__counter {
+    position: absolute;
+    bottom: 68px;
+    height: 98px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 112px;
+    line-height: 131px; }
 
 .button {
   display: -webkit-box;
@@ -367,33 +366,31 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.button__plus {
-  margin-top: 48px;
-  width: 216px;
-  height: 47px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  border: none;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-
-.button__minus {
-  margin-top: 38px;
-  width: 184px;
-  height: 23px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  background-color: #3767AD;
-  border: none;
-  color: #F5E5E7; }
+  .button__plus {
+    margin-top: 48px;
+    width: 216px;
+    height: 47px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .button__minus {
+    margin-top: 38px;
+    width: 184px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #3767AD;
+    border: none;
+    color: #F5E5E7; }
 
 /*# sourceMappingURL=main.css.map */
