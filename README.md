@@ -1,9 +1,8 @@
-# wtf-gulp-starter
+# Hydrapp - Nie zapomnij pić wody! 😏
 
-`npm install -g gulp-cli`
+![screenshot](https://github.com/kamilbaczynski/hydrapp/blob/master/src/assets/img/cover.png)
 
-`npm install`
+[Otwórz stronę - KLIK](https://kamilbaczynski.github.io/hydrapp/)
 
-`gulp`
+## Aplikacja PWA wykorzystująca local storage abyś nie zapomniał ile szklanek wody dziś wypiłeś.
 
-To publish your page using github pages use `npm run deploy`
